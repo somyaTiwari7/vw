@@ -1,0 +1,62 @@
+#logo{
+height: 27px;
+width: 27px;
+border-radius: 20px;
+transform: scale(1.7);
+
+}
+.custm{
+    display: flex;
+    flex-direction: row;
+    width: 212px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+body{
+    /* background:rgb(233, 238, 233); */
+}
+#title{
+    color: white;
+}
+#frequent{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(55, 123, 55);
+    margin-top: 27px;
+}
+.banner{
+   display: flex;
+   flex-direction: column;
+   align-items: centre;
+   justify-content: flex-start;
+
+    height: 335px;
+    
+}
+
+#banimg{
+    transform: scale(0.92);
+}
+
+#tom, #in{
+    transform: scale(0.92);
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.98s;
+    border-radius: 12px;
+    width: 450px;
+}
+
+#tom:hover{
+    transform: scale(0.95);
+    box-shadow: 0.7px 0.7px 27px 0.12px rgb(40, 108, 40);
+}
+
+body{
+    font-family: "Noto Serif";
+}
+
+
+
+

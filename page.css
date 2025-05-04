@@ -1,0 +1,82 @@
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    justify-content: flex-start;
+    height:fit-content;
+    text-align: center;
+
+    overflow-x: auto;
+}
+
+#waterm{
+    transform: scale(0.95);
+
+}
+
+
+
+.custmcar{
+margin: 0px;
+border-radius: 7px;
+
+background-color: rgb(199, 235, 199);
+padding:7px;
+
+
+}
+
+.custmcard{
+    margin-left: 50px;
+    
+    
+}
+
+#rec{
+    display: block;
+    margin-top: 32px;
+    
+    font-weight: bold;
+    padding: 7px;
+    color: rgb(82, 154, 82);
+}
+.about{
+    padding: 7px;
+    margin-top: 27px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.about h5{
+    font-weight: bold;
+    color: rgb(82, 154, 82);
+}
+
+.review{
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    
+}
+
+.review h5{
+    font-weight: bold;
+    color: rgb(82, 154, 82);
+}
+
+.btns{
+    display: flex;
+    padding: 7px;
+    flex-direction: row;
+    width: 445px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.custmbtns{
+    margin-top: 7px;
+}
